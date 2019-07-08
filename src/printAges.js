@@ -10,7 +10,7 @@ module.exports.printAges = (users, getBirthday) => {
     // This is called a destructuring assignment.
     // It unpacks the user properties into new variables.
     // Now we can refer to `user.name` simply as `name`.
-    const { name, dateOfBirth } = user
+    const { name, dateOBirth } = user
 
     // Extract date of birth using provided function.
     const birthday = getBirthday(user)
