@@ -4,6 +4,7 @@ const { data: users2, getUserBirthDate: getBirthday2 } = require("./data/users2"
 const { printAges, changeCurrentDate } = require("./printAges")
 changeCurrentDate(() => Date.parse("03-01-2018"))
 
+
 function check([ava, james, danielle, darnell]) {
   it('should say "Ava is 27 years old."', () => {
     assert.equal(ava, "Ava is 27 years old.")

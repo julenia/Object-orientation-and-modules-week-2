@@ -15,6 +15,7 @@ module.exports.printAges = (users, getBirthday) => {
     // Extract date of birth using provided function.
     const birthday = getBirthday(user)
     
+    
     // How long they've lived in milliseconds.
     const howLongTheyLived = currentDate() - birthday
     const unixEpochPlusTheirLifetime = new Date(howLongTheyLived)
